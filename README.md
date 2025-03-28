@@ -1,96 +1,58 @@
+# GitHub Advanced Lernprojekt
 
-# GitHub Lernprojekt: Gist, Wiki, Project, GitHub Pages & Secrets
-
-## 📌 Überblick
-
-In diesem Repository werden verschiedene Funktionen von GitHub praxisnah angewendet:  
-Gists, GitHub Wiki, GitHub Projects, GitHub Pages und Secrets.  
-Ziel ist es, die Einsatzmöglichkeiten dieser Tools zu verstehen und an konkreten Beispielen umzusetzen.
+Dieses Repository enthält eine Sammlung von Übungen, um den erweiterten Umgang mit GitHub zu erlernen.  
+Ziel ist es, verschiedene Features wie **Gists, Wikis, Projects, GitHub Pages und Secrets** praktisch anzuwenden.
 
 ---
 
-## 🧩 Inhalte
+## 📁 Inhalte
 
-### ✅ Gist: Beispielcode & Bild
-- Erstellung eines **öffentlichen Gists**
-- Enthält eine einfache `index.html` Datei
-- Einbindung eines **lizenzfreien Bildes** in die HTML-Datei
-- Gist wurde aktualisiert und steht öffentlich zur Verfügung
+### 🔹 Gist: HTML & Bild
+- Öffentliches Gist erstellt mit einer HTML-Seite
+- Bild aus Pixabay eingebunden
+- 👉 [Gist-Link anzeigen](https://gist.github.com/Saeschi/25470eba5a121843cdedd46a02908546)
 
-### 📘 GitHub Wiki: Dokumentation mit Gist-Inhalten
-- Repository: `wikitest`
-- Einrichtung eines **GitHub Wikis**
-- Einführungstext zur Funktionsweise des Wikis
-- Integration des Beispielcodes und Bilds aus dem Gist
-- Bildbeschreibung und HTML-Beispiel wurden eingefügt
+---
 
-### 📋 GitHub Projects: Aufgabenplanung & -verfolgung
-- Repository: `Lernprojekt-GitHub`
-- Einrichtung eines **Kanban-Boards** mit den Spalten:
-  - To Do, In Progress, Review, Done
-- Erstellte Issues:
-  1. `Projektstruktur definieren` (Label: Enhancement)
-  2. `README-Datei vervollständigen` (Label: Documentation)
-  3. `Feedbackprozess definieren` (Label: Process)
-- Meilenstein: `Projektsetup`
-- Zuweisung der Issues zu Milestone und Board
-- Simulierte Zusammenarbeit über Kommentierung und Fortschrittsverfolgung
+### 📘 Wiki: Dokumentation
+- Wiki-Seite `Gist Beispiel` enthält:
+  - Gist-Code
+  - Eingebettetes Bild + Beschreibung
+- 👉 [Wiki öffnen](https://github.com/Saeschi/github_advanced/wiki)
 
-### 🌐 GitHub Pages: Projekt-Dokumentation als Website
-- Repository: `Projekt-Dokumentation`
-- GitHub Pages aktiviert (mit Theme "Cayman")
-- Inhalt:
-  - `index.md`: Startseite mit Projektübersicht
-  - `docs/setup.md`: Einrichtungsschritte
-  - `docs/features.md`: Hauptfunktionen
-- Verlinkung zwischen Seiten integriert
-- Veröffentlichung über GitHub Pages erfolgreich getestet
+---
+
+### 📋 GitHub Project
+- Kanban-Board mit den Spalten: `To Do`, `In Progress`, `Review`, `Done`
+- 3 Issues mit Labels und Milestone:
+  - Projektstruktur definieren
+  - README vervollständigen
+  - Feedbackprozess definieren
+- Board-Name: `Lernprojekt-Board`
+
+---
+
+### 🌐 GitHub Pages
+- Projekt-Dokumentation als Website veröffentlicht
+- Dateien: `index.md`, `docs/setup.md`, `docs/features.md`
+- 👉 [Zur Website](https://saeschi.github.io/github_advanced/)
+
+---
 
 ### 🔐 GitHub Secrets & Actions
-- Verwendung von **Repository-Secrets** für automatisierte Workflows
-- Repository: `Projekt-Dokumentation`
-- Erstellung sicherer Umgebungsvariablen für GitHub Actions
-- Umsetzung eines Beispiels: Geheimnis wird im Workflow verwendet
-- Lerninhalte ergänzt durch externe Best Practices und Tutorials
+- Secret `GEHEIME_NACHRICHT` erstellt
+- GitHub Action liest das Secret sicher aus
+- Workflow-Datei: `.github/workflows/secret-test.yml`
 
 ---
 
-## 📁 Repositories (Übersicht)
+## ✅ Fazit
 
-| Thema                | Repository-Name         |
-|---------------------|--------------------------|
-| Gist-Test            | *Gist über gist.github.com* |
-| GitHub Wiki          | `wikitest`               |
-| GitHub Projects      | `Lernprojekt-GitHub`     |
-| GitHub Pages         | `Projekt-Dokumentation`  |
-| GitHub Secrets       | `Projekt-Dokumentation`  |
+Alle Aufgaben wurden erfolgreich umgesetzt.  
+Das Projekt zeigt, wie man mit GitHub professionell arbeitet – von der Doku bis zur Automatisierung.
 
 ---
 
-## 📎 Ziel des Projekts
+## 👤 Autor
 
-Dieses Lernprojekt hilft dabei, folgende Ziele zu erreichen:
-
-- Anwendung und Verständnis zentraler GitHub-Funktionen
-- Strukturierung und Visualisierung von Arbeitsprozessen
-- Nutzung von GitHub Pages zur einfachen Veröffentlichung von Inhalten
-- Sicherer Umgang mit vertraulichen Informationen (Secrets)
-- Simulierte Zusammenarbeit mit Issues, Milestones und Projekten
-
----
-
-## 🧠 Gelerntes
-
-- Unterschied zwischen **Gist** und **Repository**
-- Verwendung von **Markdown** in Gists und Wikis
-- Dokumentationsaufbau über **GitHub Pages**
-- Visualisierung von Arbeitsprozessen mit **Projects**
-- Automatisierungen mit **GitHub Actions** und Secrets
-
----
-
-## 👨‍💻 Autor
-
-Dieses Repository wurde im Rahmen einer GitHub-Lernaufgabe erstellt.  
-Alle Beispiele und Inhalte dienen dem Training im Umgang mit GitHub.
-
+Erstellt von [@Saeschi](https://github.com/Saeschi) – März 2025
